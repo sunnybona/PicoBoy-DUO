@@ -1,0 +1,49 @@
+# Build output
+**/build/
+**/build_slot/
+**/build_exe/
+**/build_gui_exe/
+**/build_pkg/
+**/build_ru/
+[Bb]uild/
+[Bb]uild_*/
+
+# Game ROMs (copyright, not redistributed)
+**/rom/*.gb
+**/rom/*.gbc
+**/rom/*.nes
+
+# Compiled objects / libs
+*.o
+*.obj
+*.a
+*.lib
+*.d
+*.elf
+*.bin
+*.hex
+*.uf2
+*.exe
+*.out
+*.app
+*.so
+*.dylib
+*.dll
+
+# Generated build reports
+*.log
+*.map
+*.dis
+dis.txt
+nm.txt
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Editor / OS
+.vscode/
+.vs/
+.DS_Store
+*Zone.Identifier
